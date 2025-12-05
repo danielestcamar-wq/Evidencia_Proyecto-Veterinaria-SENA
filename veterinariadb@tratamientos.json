@@ -1,0 +1,31 @@
+{
+    "options": {
+        "schema": "veterinariadb",
+        "table": "tratamientos",
+        "columns": [
+            "id_tratamiento",
+            "descripcion",
+            "medicamento",
+            "fecha_inicio",
+            "fecha_fin",
+            "id_mascota"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "id_tratamiento"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

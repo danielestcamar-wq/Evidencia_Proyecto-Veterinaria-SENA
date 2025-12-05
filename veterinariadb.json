@@ -1,0 +1,26 @@
+{
+    "schema": "veterinariadb",
+    "includesDdl": true,
+    "includesViewsDdl": true,
+    "includesData": true,
+    "tables": [
+        "medicamentos",
+        "mascotas",
+        "clientes",
+        "veterinarios",
+        "citas",
+        "tratamientos"
+    ],
+    "views": [],
+    "events": [],
+    "functions": [],
+    "procedures": [],
+    "basenames": {
+        "medicamentos": "veterinariadb@medicamentos",
+        "mascotas": "veterinariadb@mascotas",
+        "clientes": "veterinariadb@clientes",
+        "veterinarios": "veterinariadb@veterinarios",
+        "citas": "veterinariadb@citas",
+        "tratamientos": "veterinariadb@tratamientos"
+    }
+}

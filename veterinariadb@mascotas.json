@@ -1,0 +1,31 @@
+{
+    "options": {
+        "schema": "veterinariadb",
+        "table": "mascotas",
+        "columns": [
+            "id_mascota",
+            "nombre",
+            "especie",
+            "raza",
+            "edad",
+            "id_cliente"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "id_mascota"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

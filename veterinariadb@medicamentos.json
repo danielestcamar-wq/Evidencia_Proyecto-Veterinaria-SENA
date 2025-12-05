@@ -1,0 +1,30 @@
+{
+    "options": {
+        "schema": "veterinariadb",
+        "table": "medicamentos",
+        "columns": [
+            "id_medicamento",
+            "nombre",
+            "descripcion",
+            "stock",
+            "precio"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "id_medicamento"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

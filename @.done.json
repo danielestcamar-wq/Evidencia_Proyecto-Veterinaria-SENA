@@ -1,0 +1,22 @@
+{
+    "end": "2025-11-08 19:18:26",
+    "dataBytes": 694,
+    "tableDataBytes": {
+        "veterinariadb": {
+            "mascotas": 129,
+            "clientes": 119,
+            "medicamentos": 150,
+            "citas": 0,
+            "veterinarios": 124,
+            "tratamientos": 172
+        }
+    },
+    "chunkFileBytes": {
+        "veterinariadb@mascotas@@0.tsv.zst": 129,
+        "veterinariadb@clientes@@0.tsv.zst": 119,
+        "veterinariadb@medicamentos@@0.tsv.zst": 150,
+        "veterinariadb@citas@@0.tsv.zst": 0,
+        "veterinariadb@veterinarios@@0.tsv.zst": 124,
+        "veterinariadb@tratamientos@@0.tsv.zst": 172
+    }
+}

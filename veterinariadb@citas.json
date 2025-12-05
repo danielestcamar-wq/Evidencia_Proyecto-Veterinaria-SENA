@@ -1,0 +1,30 @@
+{
+    "options": {
+        "schema": "veterinariadb",
+        "table": "citas",
+        "columns": [
+            "id_cita",
+            "fecha",
+            "motivo",
+            "id_mascota",
+            "id_veterinario"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "id_cita"
+    ],
+    "partitions": [],
+    "basenames": {}
+}
